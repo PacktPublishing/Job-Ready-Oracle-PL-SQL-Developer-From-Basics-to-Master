@@ -1,0 +1,8 @@
+CREATE OR REPLACE FUNCTION calculate_age
+   (p_birthdate IN DATE)
+RETURN NUMBER
+DETERMINISTIC
+IS
+BEGIN
+   RETURN FLOOR(MONTHS_BETWEEN(SYSDATE, p_birthdate) / 12);
+END calculate_age;

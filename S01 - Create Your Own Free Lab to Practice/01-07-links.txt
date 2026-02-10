@@ -1,0 +1,2 @@
+https://docs.oracle.com/en/database/oracle/oracle-database/26/comsc/installing-sample-schemas.html
+https://github.com/oracle-samples/db-sample-schemas/releases/tag/v23.3
